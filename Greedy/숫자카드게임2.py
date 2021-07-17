@@ -15,6 +15,6 @@ for i in range(n):
     min_value = 10001
     for a in data:
         min_value=min(min_value,a)
-    reslut=max(result,min_value)
+    result=max(result,min_value)
 
 print(result)
